@@ -1,0 +1,3 @@
+hdiutil create Gigatron-Mac.dmg -ov -fs HFS+ -srcfolder "./Gigatron Simulator 2023-12-31 11-23-13"
+hdiutil convert Gigatron-Mac.dmg -format UDZO -o Gigatron-Mac2.dmg
+
